@@ -1,8 +1,7 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World w1 </p>'; ?> 
- </body>
-</html>
+<?php 
+require_once('models/hangMan.php');
+		
+		$test = new hangMan();
+
+		echo $test->getWord();
+ ?>
